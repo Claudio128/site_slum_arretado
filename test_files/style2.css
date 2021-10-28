@@ -1,0 +1,22 @@
+10#header {
+ width: 80%;
+ height: 100px;
+ margin: 0 auto;
+ background:#000;
+}
+
+#content {
+ width: 80%;
+ height: 100px;
+ margin: 0 auto;
+ background: blue;
+}
+
+#foot {
+ width: 80%;
+ height: 100px;
+ margin: 0 auto;
+        text-align: center;
+
+border: 5px outset #f3b455;
+}

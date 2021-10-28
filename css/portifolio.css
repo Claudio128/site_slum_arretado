@@ -1,0 +1,70 @@
+/* Tags */
+body { background: #526788 }
+
+/* Cor do texto */
+a {color: darkslategray;
+	text-decoration: none;}
+
+/* Cor, fonte e sombra do parágrafo */
+p { color: darkslategray;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #757777; }
+
+/* Cor e sombra do Titulo h1 */
+h1 {color: darkslategray;
+	text-shadow: 1px 1px 1px #757777;}
+
+/* Toda a página tem o margin e padding 0 para deixar tudo 
+junto e toda a fonte da página é Helvética ou Arial */
+* { margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial;}
+
+/* O cabeçalho vai ter o fundo azul escuro */
+header {background: #3c4c65;
+		height: 90px;
+		padding: 10px;}
+
+/* O estilo do rodapé */
+footer { background: #526788;
+		height: 40px;
+		clear: both; 
+		text-align: center;
+		padding: 10px;
+		color: #eef0f2;
+		}
+
+/* IDs */
+
+/* A logo vai está no canto esquedo */
+#logo { float: left; }
+
+/* O menu vai está no canto direito */
+#menu {float: right;
+		margin-top: 25px;}
+
+/* O estilo do menu */
+#menu a { text-decoration: none;
+		color: #eef0f2; 
+		font-family: Cambria; ;
+		padding: 62px 20px;
+		font-size: 20px;}
+
+/* A cor que vai ter quando o mouse passar em cima */
+#menu a:hover {
+  transition-duration: 1s;
+    color: #eef0f2;
+    color: #ffbe6e;
+}
+
+/* Estilo da descrição do rodapé */
+#descricao p{
+  color: #eef0f2;
+  font-family: Cambria; ;
+  padding: 10px 0px 0px 0px;
+  font-size: 15px;
+}
+
+/* Classes */
+.container { width: 0 auto;
+		margin: 0 auto; }
