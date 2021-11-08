@@ -7,7 +7,7 @@
         home.hmtl (logo.pgn, sobre, serviços, portifolio,contato)
         sobre.html 
             equipe.hmtl
-        fazemos.html
+        servicos.html
         portifolio.html
 
     css

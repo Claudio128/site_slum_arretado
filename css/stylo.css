@@ -68,15 +68,33 @@ footer { background: #526788;
   font-family: Cambria; ;
   padding: 10px 0px 0px 0px;
   font-size: 15px;
+  text-align: center;
 }
 
 /* Posição da foto */
-#principal img{float: left;
+#principal img { float: left;
 margin: 30px}
 
 /* Posição do texto ao lado da imagem */
-#principal p {padding: 150px 0px 0px 0px}
+#principal p { padding: 100px 30px 0px 0px}
 
 /* Classes */
 .container { width: 0 auto;
 		margin: 0 auto; }
+
+/*Efeito de transição */
+img{
+ max-width: 100%;
+ align-items: center;
+}
+#redes {
+ margin: 15px;
+}
+#redes img{
+ -webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+#redes img:hover {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
