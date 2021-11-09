@@ -11,7 +11,6 @@ a {color: #eef0f2;
 /* Cor, fonte e sombra do parágrafo */
 p { color: #eef0f2;
 	font-size: 25px;
-	text-shadow: 1px 1px 1px #757777; 
   text-align: justify;}
 
 /* Cor e sombra do Titulo h1 */
@@ -30,7 +29,7 @@ header {background: #3c4c65;
 
 /* O estilo do rodapé */
 footer { background: #526788;
-		height: 40px;
+		min-height: 105px;
 		clear: both; 
 		text-align: center;
 		padding: 10px;
@@ -72,17 +71,13 @@ footer { background: #526788;
 }
 
 /* Posição da foto */
-#principal img { float: left;
+#principal img { float: right;
 margin: 30px}
 
 /* Posição do texto ao lado da imagem */
-#principal p { padding: 100px 30px 0px 0px}
+#principal p { padding: 100px 30px 0px 30px}
 
-/* Classes */
-.container { width: 0 auto;
-		margin: 0 auto; }
-
-/*Efeito de transição */
+/* Efeito de aproximação das logos do Face e Insta */
 img{
  max-width: 100%;
  align-items: center;
@@ -98,3 +93,7 @@ img{
  -webkit-transform: scale(1.2);
  transform: scale(1.2);
 }
+
+/* Classes */
+.container { width: 1366px;
+		margin: auto; }
