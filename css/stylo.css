@@ -1,6 +1,3 @@
-/* index */
-body {background: #3c4c65;}
-
 /* Tags */
 body { background: #526788 }
 
@@ -14,7 +11,9 @@ p { color: #eef0f2;
   text-align: justify;}
 
 /* Cor e sombra do Titulo h1 */
-h1 {color: #eef0f2;}
+h1 {color: #eef0f2;
+  padding: 40px;
+	text-align: center;}
 
 /* Toda a página tem o margin e padding 0 para deixar tudo 
 junto e toda a fonte da página é Helvética ou Arial */
@@ -35,7 +34,7 @@ footer { background: #526788;
 		padding: 10px;
 		color: #eef0f2;
 		}
-
+    
 /* IDs */
 
 /* A logo vai está no canto esquedo */
@@ -70,12 +69,58 @@ footer { background: #526788;
   text-align: center;
 }
 
-/* Posição da foto */
+/* Posição da foto da page home */
 #principal img { float: right;
 margin: 30px}
 
-/* Posição do texto ao lado da imagem */
+/* Posição do texto ao lado da imagem da page home */
 #principal p { padding: 100px 30px 0px 30px}
+
+/* Posição do texto da page sobre (Slum) */
+#principal-um p { padding: 70px 30px 70px 300px}
+#principal-um img { float: left;
+margin: 10px}
+
+/* Posição do texto da page sobre (equipe) */
+#equipe p { padding: 10px 30px 50px 30px}
+
+/* Posição da foto da page sobre (Claudio) */
+#mg img { float: left;
+margin: 10px}
+#mg p { padding: 180px 30px 50px 370px}
+
+/* Posição da foto da page sobre (Esdras) */
+#gd img { float: right;
+margin: 10px}
+#gd p { padding: 180px 370px 50px 30px}
+
+/* Posição da foto da page sobre (Jean) */
+#ap img { float: left;
+margin: 10px}
+#ap p { padding: 180px 30px 50px 370px}
+
+/* Posição da foto da page sobre (Luiz) */
+#ll img { float: right;
+margin: 10px}
+#ll p { padding: 180px 370px 50px 30px}
+
+/* Posição do texto da page portfólio */
+#equipe p { padding: 10px 30px 50px 30px}
+
+/* Posição da foto da page portfólio */
+#arbor img { float: right;
+margin: 10px}
+#arbor p { padding: 120px 370px 100px 30px}
+
+/* Posição da foto da page portfólio */
+#capi img { float: left;
+margin: 10px}
+#capi p { padding: 120px 30px 100px 370px}
+
+/* Posição da foto da page portfólio */
+#eva img { float: right;
+margin: 10px}
+#eva p { padding: 120px 370px 100px 30px}
 
 /* Efeito de aproximação das logos do Face e Insta */
 img{
@@ -96,4 +141,7 @@ img{
 
 /* Classes */
 .container { width: 1366px;
+		margin: auto; }
+
+.container-2 { width: 1349px;
 		margin: auto; }
