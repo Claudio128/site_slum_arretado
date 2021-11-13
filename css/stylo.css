@@ -59,13 +59,12 @@ footer { background: #1c8fdf;
 /* A cor que vai ter quando o mouse passar em cima */
 #menu a:hover {
   transition-duration: 1s;
-  color: #ffffff;
   color: #000000;
 }
 
 /* Estilo da descrição do rodapé */
 #descricao p{
-  color: #eef0f2;
+  color: #ffffff;
   font-family: Cambria; ;
   padding: 10px 0px 0px 0px;
   font-size: 15px;
@@ -82,7 +81,7 @@ margin: 85px}
 /* Posição do texto da page sobre (Slum) */
 #principal-um p { padding: 70px 30px 70px 300px}
 #principal-um img { float: left;
-margin: 50px}
+margin: 30px}
 
 /* Posição do texto da page sobre (equipe) */
 #equipe p { padding: 10px 30px 50px 30px}
@@ -125,6 +124,11 @@ margin: 10px}
 margin: 10px}
 #eva p { padding: 120px 370px 100px 30px}
 
+/* Posição do texto ao lado da imagem da page home */
+#servicos p { padding: 10px 50px 10px 30px}
+#servicos img { float: right;
+margin: 30px 150px 100px 30px}
+
 /* Efeito de aproximação das logos do Face e Insta */
 img{
  max-width: 100%;
@@ -147,4 +151,7 @@ img{
 		margin: auto; }
 
 .container-2 { width: 1349px;
+		margin: auto; }
+
+.container-3 { width: 1339px;
 		margin: auto; }
