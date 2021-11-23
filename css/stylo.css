@@ -34,11 +34,13 @@ footer { background: #1c8fdf;
 		padding: 10px;
 		color: #eef0f2;
 		}
-    
-/* IDs */
+  
+header h1 { color: #ffffff;
+  font-size:  40px;
+  padding: 30px;
+  text-aling: center;}
 
-#home {background: #ffffff;}
-#home p {color: #000000}
+/* IDs */
 
 /* A logo vai está no canto esquedo */
 #logo { float: left; }
@@ -46,14 +48,14 @@ footer { background: #1c8fdf;
 #logo_inicial { float: center}
 
 /* O menu vai está no canto direito */
-#menu {float: right;
-		margin-top: 25px;}
+#menu {
+  margin-top: 25px;}
 
 /* O estilo do menu */
 #menu a { text-decoration: none;
 		color: #ffffff; 
 		font-family: Cambria; ;
-		padding: 62px 20px;
+		padding: 0px 20px;
 		font-size: 20px;}
 
 /* A cor que vai ter quando o mouse passar em cima */
@@ -76,15 +78,15 @@ footer { background: #1c8fdf;
 margin: 85px}
 
 /* Posição do texto ao lado da imagem da page home */
-#principal p { padding: 100px 30px 0px 30px}
+#principal p { padding: 100px 20px 50px 10px}
 
 /* Posição do texto da page sobre (Slum) */
-#principal-um p { padding: 70px 30px 70px 300px}
+#principal-um p { padding: 70px 10px 70px 10px}
 #principal-um img { float: left;
 margin: 30px}
 
 /* Posição do texto da page sobre (equipe) */
-#equipe p { padding: 10px 30px 50px 30px}
+#equipe p { padding: 10px 20px 50px 10px}
 
 /* Posição da foto da page sobre (Claudio) */
 #mg img { float: left;
@@ -107,7 +109,7 @@ margin: 10px}
 #ll p { padding: 180px 370px 50px 30px}
 
 /* Posição do texto da page portfólio */
-#equipe1 p { padding: 10px 30px 50px 70px}
+#equipe1 p { padding: 10px 20px 50px 10px}
 
 /* Posição da foto da page portfólio */
 #arbor img { float: right;
@@ -124,7 +126,7 @@ margin: 10px}
 margin: 10px}
 #eva p { padding: 120px 370px 100px 30px}
 
-/* Posição do texto ao lado da imagem da page home */
+/* Posição do texto ao lado da imagem da page serviços */
 #servicos p { padding: 10px 50px 10px 30px}
 #servicos img { float: right;
 margin: 30px 150px 100px 30px}
@@ -153,5 +155,22 @@ img{
 .container-2 { width: 1349px;
 		margin: auto; }
 
-.container-3 { width: 1339px;
-		margin: auto; }
+.main-1 {min-width: 320px;
+max-width: 1500px;
+padding: 0px;
+margin: auto;}
+
+@media screen and (max-width: 600px){
+  header img {
+    width:100%;
+  }
+  
+  #principal img{
+    margin: 30px 50px 50px 30px;
+  }
+
+  footer img {
+    width: 30px;
+  }
+
+}
